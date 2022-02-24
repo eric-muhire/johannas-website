@@ -1,17 +1,15 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 function Home() {
     return(
-        <div className="container">
-            <div class="card mt-4">
-                 <div class="card-body">
-                     <h2>Hem</h2>
-
-
-                     </div>
-                 </div>
-            </div>
+        <div>
+        <h1>Om Aloe Vera</h1>
+        <Link to="about"></Link>
+        
+      </div>
     );
+    
 
 }
 export default Home;
