@@ -3,9 +3,9 @@ import React from 'react';
 function Contact() {
     return(
         <div className="container">
-            <div class="card mt-4">
-                 <div class="card-body">
-                     <h2>frågor & svar</h2>
+            <div className="card mt-4">
+                 <div className="card-body">
+                     <h2>Frågor & svar</h2>
 
 
                      </div>
