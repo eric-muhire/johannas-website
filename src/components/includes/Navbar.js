@@ -6,7 +6,7 @@ function Navbar() {
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
         
-          <Link to="/" class="navbar-brand">Johannas Aloe Vera</Link>
+          <Link to="/" class="navbar-brand">Forever Aloe Vera</Link>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -14,7 +14,7 @@ function Navbar() {
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               
               <li class="nav-item">
-                <Link to="/" class="nav-link active">Home</Link>
+                <Link to="/" class="nav-link active">Hem</Link>
               </li>
 
               <li class="nav-item">
