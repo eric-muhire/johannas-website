@@ -2,7 +2,7 @@ import React from 'react';
 
 function Produkterna() {
     return(
-        <section className="section bg-c-light border-top">
+        <section className="section1 bg-c-light border-top">
         <div className="container">
         <div className="row">
             <div className="col-md-12 md-4 text-center">

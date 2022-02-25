@@ -24,7 +24,7 @@ function Contact() {
                 <div className="container">
                     <div className="card shadow">
                         <div className="card-body">
-                            <h2></h2>
+                           
                             <div className="row">
                             <div className="col-md-6">
                             <h5>Kontakta mig</h5>

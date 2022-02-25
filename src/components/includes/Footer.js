@@ -21,16 +21,16 @@ function Footer(){
                 <h6>Quick links</h6>
                 <hr/>
                 <div><Link to="/">Home</Link></div>
-                <div><Link to="/about">About</Link></div>
+                <div><Link to="../pages/about">About</Link></div>
                 <div><Link to="/">Contact</Link></div>
                 </div>
                 
             <div className="col-md-4 ">
                 <h6>Kontakt Information</h6>
                 <hr/>
-                <div><p className="text-white mb-1">#Nödinge</p></div>
-                <div><p className="text-white mb-1">#+4673444</p></div>
-                <div><p className="text-white mb-1">#e.muhire24@gmail.com</p></div>
+                <div><p className="text-white mb-1">Nödinge</p></div>
+                <div><p className="text-white mb-1">+4673444</p></div>
+                <div><p className="text-white mb-1">e.muhire24@gmail.com</p></div>
                 
         
                
