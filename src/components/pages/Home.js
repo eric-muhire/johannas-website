@@ -3,7 +3,7 @@ import React from 'react';
 import Slider from '../includes/Slider';
 import {Link} from 'react-router-dom';
 import VisionMission from './includes/VisionMission';
-import service1 from '../images/service1.jpg';
+import service1 from '../images/service1.png';
 
 
 function Home() {
@@ -15,7 +15,7 @@ function Home() {
                   <div className="container">
                   <div className="row">
                       <div className="col-md-12 text-center">
-                          <h3 className="main-heading">Our company</h3>
+                          <h3 className="main-heading">Fokusområden</h3>
                           <div className="underline mx-auto"></div>
                           <p>
               Contrary to popular belief, Lorem Ipsum is not simply random text.
@@ -28,39 +28,39 @@ function Home() {
               from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et
               Malorum"
             </p>
-                <Link to="/about" className="btn btn-warning shadow">Read more</Link>
+                <Link to="/about" className="btn btn-warning shadow">Läs mer</Link>
                       </div>
                       </div>
 
                   </div>
                 </section>
-                {/*Our vision, mission and values */}
+                {/*Skönhet, Hälsa och Välmående */}
                 
                 <VisionMission/>
                 
 
-                {/*Our Services */}
+                {/*vår produkter */}
                 <section className="section bg-c-light border-top">
         <div className="container">
         <div className="row">
             <div className="col-md-12 md-4 ">
-                <h3 className="main-heading">Our Services</h3>
-                <div className="underline mx-auto"></div>
+                <h3 className="main-heading">Produkter</h3>
+                <div className="underline mx-auto-left"></div>
    
             </div>
             <div className="col-md-4 ">
                
                 <div className="card shadow">
-                <img src="Service1" className="w-100 border-botom" alt="Services" />
+                
                    <div className="card-body">
                        <img src={service1} className="w-100 border-botom" alt="Services" />
-                   <h6>Service1</h6>
+                   <h6>Om produkter</h6>
                    <div className="underline"></div>
                    <p>
                    Contrary to popular belief, Lorem Ipsum is not simply random text.
                     It has roots in a piece of classical Latin literatur
                    </p>
-                      <Link to="/services" className="btn btn-link">Read more</Link>
+                      <Link to="/products" className="btn btn-link">Läsmer</Link>
                        
                    </div> 
                 </div>

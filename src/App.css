@@ -34,7 +34,15 @@ p{
 .section {
   position: "fixed";
           left: 0;
-  margin-top: 100px;
+  margin-top: 200px;
           right: 0;
          
+}
+.section1{
+  position: relative;
+left: 10px;
+bottom: 200px;
+
+  
+  
 }

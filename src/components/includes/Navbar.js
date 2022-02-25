@@ -18,7 +18,7 @@ function Navbar() {
               </li>
 
               <li class="nav-item">
-                <Link to="/about" class="nav-link active">Om mig</Link>
+                <Link to="/about" class="nav-link active">Varför Aloe Vera</Link>
               </li>
 
               <li class="nav-item">

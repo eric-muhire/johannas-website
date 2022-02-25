@@ -8,7 +8,7 @@ function About() {
             <div className="container">
             <div className="row">
                  <div className="col-md-4 my-auto">
-                 <h4>Om mig</h4>
+                 <h4>Varför Aloe Vera</h4>
                      </div>
                     <div className="col-md-8 my-auto">
                     <h6 className="float-end">
@@ -20,7 +20,7 @@ function About() {
                  </section>
                  <section className="section bg-c-light border-bottom">
                      <div className="container">
-                         <h5 className="main-heading">Our Company</h5>
+                         <h5 className="main-heading">Varför Aloe Vera</h5>
                          <div className="underline"></div>
                          <p>dfsmlsdkfskldflskdsd</p>
                      </div>
