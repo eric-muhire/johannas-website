@@ -7,6 +7,9 @@ import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
 import Products from "./components/pages/Products";
 import { BrowserRouter as Router,Route, Routes } from "react-router-dom";
+import Footer from "./components/includes/Footer";
+
+
 function App() {
   return (
     
@@ -29,7 +32,14 @@ function App() {
       <Route path="/contact" element={<Contact/>}/>
       </Routes>
           </div>
+          <Routes>
+      <Route path="/products" element={<Products/>}/>
+      </Routes>
+     
+          <Footer/>
+         
       </Router>
+      
 
    
   );
