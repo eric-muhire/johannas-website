@@ -3,6 +3,8 @@ import React from 'react';
 import Slider from '../includes/Slider';
 import {Link} from 'react-router-dom';
 import VisionMission from './includes/VisionMission';
+import service1 from '../images/service1.jpg';
+
 
 function Home() {
     return(
@@ -35,6 +37,42 @@ function Home() {
                 {/*Our vision, mission and values */}
                 
                 <VisionMission/>
+                
+
+                {/*Our Services */}
+                <section className="section bg-c-light border-top">
+        <div className="container">
+        <div className="row">
+            <div className="col-md-12 md-4 ">
+                <h3 className="main-heading">Our Services</h3>
+                <div className="underline mx-auto"></div>
+   
+            </div>
+            <div className="col-md-4 ">
+               
+                <div className="card shadow">
+                <img src="Service1" className="w-100 border-botom" alt="Services" />
+                   <div className="card-body">
+                       <img src={service1} className="w-100 border-botom" alt="Services" />
+                   <h6>Service1</h6>
+                   <div className="underline"></div>
+                   <p>
+                   Contrary to popular belief, Lorem Ipsum is not simply random text.
+                    It has roots in a piece of classical Latin literatur
+                   </p>
+                      <Link to="/services" className="btn btn-link">Read more</Link>
+                       
+                   </div> 
+                </div>
+            
+
+            </div>
+            </div>
+            </div>
+            
+      </section>
+
+
         </div>
     
 );
