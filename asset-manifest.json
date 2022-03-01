@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/%7Bjojo-web%7D/static/css/main.b296d760.css",
+    "main.js": "/%7Bjojo-web%7D/static/js/main.ca4b5afe.js",
+    "static/js/787.72bac98b.chunk.js": "/%7Bjojo-web%7D/static/js/787.72bac98b.chunk.js",
+    "static/media/service1.png": "/%7Bjojo-web%7D/static/media/service1.b24458dee93d092ef32a.png",
+    "static/media/slider1.jpg": "/%7Bjojo-web%7D/static/media/slider1.ebbaa1073b661ebed048.jpg",
+    "static/media/slider2.jpg": "/%7Bjojo-web%7D/static/media/slider2.fdffd091ebe5bac0588a.jpg",
+    "static/media/slider3.jpg": "/%7Bjojo-web%7D/static/media/slider3.09788b0a9c81356dd016.jpg",
+    "index.html": "/%7Bjojo-web%7D/index.html",
+    "main.b296d760.css.map": "/%7Bjojo-web%7D/static/css/main.b296d760.css.map",
+    "main.ca4b5afe.js.map": "/%7Bjojo-web%7D/static/js/main.ca4b5afe.js.map",
+    "787.72bac98b.chunk.js.map": "/%7Bjojo-web%7D/static/js/787.72bac98b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b296d760.css",
+    "static/js/main.ca4b5afe.js"
+  ]
+}
