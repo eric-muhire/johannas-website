@@ -60,6 +60,8 @@ function Home() {
                    Contrary to popular belief, Lorem Ipsum is not simply random text.
                     It has roots in a piece of classical Latin literatur
                    </p>
+
+                   
                       <Link to="/products" className="btn btn-link">Läsmer</Link>
                        
                    </div> 

@@ -43,6 +43,8 @@ p{
 left: 10px;
 bottom: 200px;
 
-  
-  
+}
+.Navbar a:hover {
+  color: #f76c2f;
+
 }
