@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/jojo-web/static/css/main.b296d760.css",
-    "main.js": "/jojo-web/static/js/main.2407dba8.js",
+    "main.css": "/jojo-web/static/css/main.7da78735.css",
+    "main.js": "/jojo-web/static/js/main.bedcfb74.js",
     "static/js/787.72bac98b.chunk.js": "/jojo-web/static/js/787.72bac98b.chunk.js",
     "static/media/service1.png": "/jojo-web/static/media/service1.b24458dee93d092ef32a.png",
     "static/media/slider1.jpg": "/jojo-web/static/media/slider1.ebbaa1073b661ebed048.jpg",
     "static/media/slider2.jpg": "/jojo-web/static/media/slider2.fdffd091ebe5bac0588a.jpg",
     "static/media/slider3.jpg": "/jojo-web/static/media/slider3.09788b0a9c81356dd016.jpg",
     "index.html": "/jojo-web/index.html",
-    "main.b296d760.css.map": "/jojo-web/static/css/main.b296d760.css.map",
-    "main.2407dba8.js.map": "/jojo-web/static/js/main.2407dba8.js.map",
+    "main.7da78735.css.map": "/jojo-web/static/css/main.7da78735.css.map",
+    "main.bedcfb74.js.map": "/jojo-web/static/js/main.bedcfb74.js.map",
     "787.72bac98b.chunk.js.map": "/jojo-web/static/js/787.72bac98b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b296d760.css",
-    "static/js/main.2407dba8.js"
+    "static/css/main.7da78735.css",
+    "static/js/main.bedcfb74.js"
   ]
 }
