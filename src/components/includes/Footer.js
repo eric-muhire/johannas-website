@@ -21,8 +21,8 @@ function Footer(){
                 <h6>Quick links</h6>
                 <hr/>
                 <div><Link to="/">Home</Link></div>
-                <div><Link to="../pages/about">About</Link></div>
-                <div><Link to="/">Contact</Link></div>
+                <div><Link to="/about">About</Link></div>
+                <div><Link to="/contact">Contact</Link></div>
                 </div>
                 
             <div className="col-md-4 ">
