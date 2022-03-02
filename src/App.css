@@ -1,6 +1,12 @@
 p{
   font-size: 14px;
   color: #262626
+  
+}
+body {
+  background-color: #abb9b0;
+  color: white;
+  font-family: "Poppins", sans-serif;
 }
 
 .section{
@@ -34,17 +40,28 @@ p{
 .section {
   position: "fixed";
           left: 0;
-  margin-top: 200px;
+  margin-top: 150px;
           right: 0;
          
 }
-.section1{
-  position: relative;
-left: 10px;
-bottom: 200px;
 
-}
 .Navbar a:hover {
   color: #f76c2f;
 
 }
+ul a {
+    color: white;
+  }
+  
+  ul li {
+    padding: 5px;
+    margin-left: 10px;
+    
+  }
+  
+  ul li:hover {
+    width: auto ;
+    transition: 0.3s;
+    background-color:rgb(221, 208, 30);
+  }
+ 
