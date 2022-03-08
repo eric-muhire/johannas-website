@@ -58,3 +58,11 @@ ul a {
  .color-4-my-auto{
    text-align: left;
  }
+ .d-block{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+   
+
+}
