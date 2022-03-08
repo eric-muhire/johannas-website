@@ -11,7 +11,7 @@ return (
       <div class="carousel-item active" data-bs-interval="3000">
         <img src={slider1} class="d-block w-90" alt="..."/>
       </div>
-      <div class="carousel-item" data-bs-interval="70000">
+      <div class="carousel-item" data-bs-interval="7000">
         <img src={slider2} class="d-block w-90" alt="..."/>
       </div>
       <div class="carousel-item">
