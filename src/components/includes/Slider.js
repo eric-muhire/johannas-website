@@ -8,14 +8,14 @@ function Slider() {
 return (
     <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
-      <div class="carousel-item active" data-bs-interval="5000">
+      <div class="carousel-item active" data-bs-interval="3000">
         <img src={slider1} class="d-block w-90" alt="..."/>
       </div>
-      <div class="carousel-item" data-bs-interval="10000">
+      <div class="carousel-item" data-bs-interval="70000">
         <img src={slider2} class="d-block w-90" alt="..."/>
       </div>
       <div class="carousel-item">
-        <img src={slider3} class="d-block w90" alt="..."/>
+        <img src={slider3} class="d-block w-90" alt="..."/>
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
