@@ -139,7 +139,7 @@ function Contact() {
             <input
               type="submit"
               className="btn btn-primary my-3"
-              value="Send message"
+              value="Skicka meddelandet"
             />
           </form>
         </div>
