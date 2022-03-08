@@ -5,7 +5,7 @@ function Produkterna() {
         <section className="section1 bg-c-light border-top">
         <div className="container">
         <div className="row">
-            <div className="col-md-12 md-4 text-center">
+            <div className="col-md-12 md-4 text-center"><br></br>
                 <h3 className="main-heading">Produkter</h3>
                 <div className="underline mx-auto"></div>
    
@@ -50,16 +50,7 @@ function Produkterna() {
                 Contrary to popular belief, Lorem Ipsum is not simply random text.
                   It has roots in a piece of classical Latin  
                 </p>
-                <p>
-                Contrary to popular belief, Lorem Ipsum is not simply random text.
-                  It has roots in a piece of classical Latin  
-                </p>
-                <p>
-                Contrary to popular belief, Lorem Ipsum is not simply random text.
-                  It has roots in a piece of classical Latin  
-                </p>
-                
-                
+              
 
 
             </div>
