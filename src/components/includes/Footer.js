@@ -32,13 +32,24 @@ function Footer(){
                 <div><p className="text-white mb-1">+4673444</p></div>
                 <div><p className="text-white mb-1">e.muhire24@gmail.com</p></div>
                 
-        
+         
                
                 </div>
                 </div>
                 </div>
+                <div>
+                    <p class="copyright">copyright &copy; 2022 Muhire. All Rights Reserved<span id="curYr"></span>
 
+                    </p>
+                </div>
+                <script>
+                    var date = new Date();
+                    var year = date.getFullYear();
+                    document.getElementById('curYr').innerHTML = year;
+                    
+                    </script>
                 </section>
+              
              
 
     );
