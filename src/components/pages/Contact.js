@@ -57,10 +57,19 @@ function Contact() {
               <label className="col-form-label">Namn:</label>
               <input
                 type="text"
+                
                 className={`form-control ${errors.name && "invalid"}`}
-                {...register("name", { required: "Namn behövs" })}
+                {...register("name", { required: "Namn behövs", 
+                maxLength: {
+                  value: 25,
+                  message: "Maximum allowed length is 25 ",
+                }
+              
+              })}
+                
                 onKeyUp={() => {
                   trigger("name");
+                  
                 }}
               />
               {errors.name && (
@@ -73,7 +82,7 @@ function Contact() {
               <input
                 type="text"
                 className={`form-control ${errors.email && "invalid"}`}
-                {...register("email", { required: "Email is Required" ,
+                {...register("email", { required: "Email behövs" ,
                 pattern: {
                   value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
                   message: "Invalid email address",
@@ -94,7 +103,7 @@ function Contact() {
                 {...register("phone", { required: "Telefonnummer behövs",
                 pattern: {
                   value: /^\s*(?:\+?(\d{1,3}))?[-. (]*(\d{3})[-. )]*(\d{3})[-. ]*(\d{4})(?: *x(\d+))?\s*$/,
-                  message: "Invalid phone no",
+                  message: "Fel telefon",
                 },
                })}
                onKeyUp={() => {
@@ -115,8 +124,8 @@ function Contact() {
                   message: "Minimum Required length is 10",
                 },
                 maxLength: {
-                  value: 50,
-                  message: "Maximum allowed length is 200 ",
+                  value: 100,
+                  message: "Maximum allowed length is 100 ",
                 }
                })}
                onKeyUp={() => {

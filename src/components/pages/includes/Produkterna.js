@@ -6,10 +6,16 @@ function Produkterna() {
         <div className="container">
         <div className="row">
             <div className="col-md-12 md-4 text-center">
-                <h3 className="main-heading">Produkterna</h3>
+                <h3 className="main-heading">Produkter</h3>
                 <div className="underline mx-auto"></div>
    
             </div>
+            <p>
+            Aloe vera har älskats i årtusenden för sina fantastiska egenskaper.
+            Idag använder miljontals människor världen över Forevers högkvalitativa 
+            Aloe vera-produkter både utvärtes och invärtes för att må bättre och se bättre ut. 
+            Forevers produkter säljs via återförsäljare på 160 marknader världen över
+            </p>
             <div className="col-md-4 text-center">
                 <h6>Kosttillskot</h6>
                 <p>
