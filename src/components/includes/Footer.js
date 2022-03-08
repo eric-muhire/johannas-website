@@ -18,11 +18,11 @@ function Footer(){
  
           
             <div className="col-md-4 ">
-                <h6>Quick links</h6>
+                <h6>Snabba länkar</h6>
                 <hr/>
-                <div><Link to="/">Home</Link></div>
-                <div><Link to="/about">About</Link></div>
-                <div><Link to="/contact">Contact</Link></div>
+                <div><Link to="/">Hem</Link></div>
+                <div><Link to="/about">Om</Link></div>
+                <div><Link to="/contact">Frågor & Svar</Link></div>
                 </div>
                 
             <div className="col-md-4 ">
